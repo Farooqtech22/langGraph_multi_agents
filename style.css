@@ -1,0 +1,40 @@
+/* static/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+pre {
+  background: #efefef;
+  padding: 15px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
