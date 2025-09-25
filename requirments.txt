@@ -1,0 +1,29 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.12
+
+# Templates + static
+jinja2==3.1.4
+
+# Environment variables
+python-dotenv==1.0.1
+
+# HTTP requests
+requests==2.32.3
+
+# Pydantic for validation
+pydantic==2.9.2
+
+# LangChain ecosystem
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-openai==0.1.23
+
+# Vector DB
+faiss-cpu==1.8.0.post1
+
+# PDF loader
+pypdf==4.3.1
+
+# OpenAI client (needed for langchain-openai)
+openai==1.45.0
